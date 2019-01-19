@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7EE12521F39ABD007DFABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EE12421F39ABD007DFABC /* AppDelegate.swift */; };
+		4D7EE12721F39ABD007DFABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EE12621F39ABD007DFABC /* ViewController.swift */; };
+		4D7EE12A21F39ABD007DFABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7EE12821F39ABD007DFABC /* Main.storyboard */; };
+		4D7EE12C21F39ABF007DFABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7EE12B21F39ABF007DFABC /* Assets.xcassets */; };
+		4D7EE12F21F39ABF007DFABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7EE12D21F39ABF007DFABC /* LaunchScreen.storyboard */; };
+		4D7EE13A21F39ABF007DFABC /* azure_pipelinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EE13921F39ABF007DFABC /* azure_pipelinesTests.swift */; };
+		4D7EE14521F39ABF007DFABC /* azure_pipelinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7EE14421F39ABF007DFABC /* azure_pipelinesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7EE13621F39ABF007DFABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7EE11921F39ABD007DFABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7EE12021F39ABD007DFABC;
+			remoteInfo = "azure-pipelines";
+		};
+		4D7EE14121F39ABF007DFABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7EE11921F39ABD007DFABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7EE12021F39ABD007DFABC;
+			remoteInfo = "azure-pipelines";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7EE12121F39ABD007DFABC /* azure-pipelines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "azure-pipelines.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7EE12421F39ABD007DFABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D7EE12621F39ABD007DFABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D7EE12921F39ABD007DFABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D7EE12B21F39ABF007DFABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D7EE12E21F39ABF007DFABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D7EE13021F39ABF007DFABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7EE13521F39ABF007DFABC /* azure-pipelinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "azure-pipelinesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7EE13921F39ABF007DFABC /* azure_pipelinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azure_pipelinesTests.swift; sourceTree = "<group>"; };
+		4D7EE13B21F39ABF007DFABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7EE14021F39ABF007DFABC /* azure-pipelinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "azure-pipelinesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7EE14421F39ABF007DFABC /* azure_pipelinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = azure_pipelinesUITests.swift; sourceTree = "<group>"; };
+		4D7EE14621F39ABF007DFABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7EE11E21F39ABD007DFABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7EE13221F39ABF007DFABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7EE13D21F39ABF007DFABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7EE11821F39ABD007DFABC = {
+			isa = PBXGroup;
+			children = (
+				4D7EE12321F39ABD007DFABC /* azure-pipelines */,
+				4D7EE13821F39ABF007DFABC /* azure-pipelinesTests */,
+				4D7EE14321F39ABF007DFABC /* azure-pipelinesUITests */,
+				4D7EE12221F39ABD007DFABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7EE12221F39ABD007DFABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7EE12121F39ABD007DFABC /* azure-pipelines.app */,
+				4D7EE13521F39ABF007DFABC /* azure-pipelinesTests.xctest */,
+				4D7EE14021F39ABF007DFABC /* azure-pipelinesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7EE12321F39ABD007DFABC /* azure-pipelines */ = {
+			isa = PBXGroup;
+			children = (
+				4D7EE12421F39ABD007DFABC /* AppDelegate.swift */,
+				4D7EE12621F39ABD007DFABC /* ViewController.swift */,
+				4D7EE12821F39ABD007DFABC /* Main.storyboard */,
+				4D7EE12B21F39ABF007DFABC /* Assets.xcassets */,
+				4D7EE12D21F39ABF007DFABC /* LaunchScreen.storyboard */,
+				4D7EE13021F39ABF007DFABC /* Info.plist */,
+			);
+			path = "azure-pipelines";
+			sourceTree = "<group>";
+		};
+		4D7EE13821F39ABF007DFABC /* azure-pipelinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7EE13921F39ABF007DFABC /* azure_pipelinesTests.swift */,
+				4D7EE13B21F39ABF007DFABC /* Info.plist */,
+			);
+			path = "azure-pipelinesTests";
+			sourceTree = "<group>";
+		};
+		4D7EE14321F39ABF007DFABC /* azure-pipelinesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7EE14421F39ABF007DFABC /* azure_pipelinesUITests.swift */,
+				4D7EE14621F39ABF007DFABC /* Info.plist */,
+			);
+			path = "azure-pipelinesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7EE12021F39ABD007DFABC /* azure-pipelines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7EE14921F39ABF007DFABC /* Build configuration list for PBXNativeTarget "azure-pipelines" */;
+			buildPhases = (
+				4D7EE11D21F39ABD007DFABC /* Sources */,
+				4D7EE11E21F39ABD007DFABC /* Frameworks */,
+				4D7EE11F21F39ABD007DFABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "azure-pipelines";
+			productName = "azure-pipelines";
+			productReference = 4D7EE12121F39ABD007DFABC /* azure-pipelines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7EE13421F39ABF007DFABC /* azure-pipelinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7EE14C21F39ABF007DFABC /* Build configuration list for PBXNativeTarget "azure-pipelinesTests" */;
+			buildPhases = (
+				4D7EE13121F39ABF007DFABC /* Sources */,
+				4D7EE13221F39ABF007DFABC /* Frameworks */,
+				4D7EE13321F39ABF007DFABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7EE13721F39ABF007DFABC /* PBXTargetDependency */,
+			);
+			name = "azure-pipelinesTests";
+			productName = "azure-pipelinesTests";
+			productReference = 4D7EE13521F39ABF007DFABC /* azure-pipelinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D7EE13F21F39ABF007DFABC /* azure-pipelinesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7EE14F21F39ABF007DFABC /* Build configuration list for PBXNativeTarget "azure-pipelinesUITests" */;
+			buildPhases = (
+				4D7EE13C21F39ABF007DFABC /* Sources */,
+				4D7EE13D21F39ABF007DFABC /* Frameworks */,
+				4D7EE13E21F39ABF007DFABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7EE14221F39ABF007DFABC /* PBXTargetDependency */,
+			);
+			name = "azure-pipelinesUITests";
+			productName = "azure-pipelinesUITests";
+			productReference = 4D7EE14021F39ABF007DFABC /* azure-pipelinesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7EE11921F39ABD007DFABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Marked Systems";
+				TargetAttributes = {
+					4D7EE12021F39ABD007DFABC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4D7EE13421F39ABF007DFABC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4D7EE12021F39ABD007DFABC;
+					};
+					4D7EE13F21F39ABF007DFABC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4D7EE12021F39ABD007DFABC;
+					};
+				};
+			};
+			buildConfigurationList = 4D7EE11C21F39ABD007DFABC /* Build configuration list for PBXProject "azure-pipelines" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7EE11821F39ABD007DFABC;
+			productRefGroup = 4D7EE12221F39ABD007DFABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7EE12021F39ABD007DFABC /* azure-pipelines */,
+				4D7EE13421F39ABF007DFABC /* azure-pipelinesTests */,
+				4D7EE13F21F39ABF007DFABC /* azure-pipelinesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7EE11F21F39ABD007DFABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7EE12F21F39ABF007DFABC /* LaunchScreen.storyboard in Resources */,
+				4D7EE12C21F39ABF007DFABC /* Assets.xcassets in Resources */,
+				4D7EE12A21F39ABD007DFABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7EE13321F39ABF007DFABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7EE13E21F39ABF007DFABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7EE11D21F39ABD007DFABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7EE12721F39ABD007DFABC /* ViewController.swift in Sources */,
+				4D7EE12521F39ABD007DFABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7EE13121F39ABF007DFABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7EE13A21F39ABF007DFABC /* azure_pipelinesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7EE13C21F39ABF007DFABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7EE14521F39ABF007DFABC /* azure_pipelinesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7EE13721F39ABF007DFABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7EE12021F39ABD007DFABC /* azure-pipelines */;
+			targetProxy = 4D7EE13621F39ABF007DFABC /* PBXContainerItemProxy */;
+		};
+		4D7EE14221F39ABF007DFABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7EE12021F39ABD007DFABC /* azure-pipelines */;
+			targetProxy = 4D7EE14121F39ABF007DFABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D7EE12821F39ABD007DFABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7EE12921F39ABD007DFABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D7EE12D21F39ABF007DFABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7EE12E21F39ABF007DFABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D7EE14721F39ABF007DFABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D7EE14821F39ABF007DFABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7EE14A21F39ABF007DFABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2XT36CY3;
+				INFOPLIST_FILE = "azure-pipelines/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markedsystems.azure-pipelines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D7EE14B21F39ABF007DFABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2XT36CY3;
+				INFOPLIST_FILE = "azure-pipelines/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markedsystems.azure-pipelines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D7EE14D21F39ABF007DFABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2XT36CY3;
+				INFOPLIST_FILE = "azure-pipelinesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markedsystems.azure-pipelinesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/azure-pipelines.app/azure-pipelines";
+			};
+			name = Debug;
+		};
+		4D7EE14E21F39ABF007DFABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2XT36CY3;
+				INFOPLIST_FILE = "azure-pipelinesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markedsystems.azure-pipelinesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/azure-pipelines.app/azure-pipelines";
+			};
+			name = Release;
+		};
+		4D7EE15021F39ABF007DFABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2XT36CY3;
+				INFOPLIST_FILE = "azure-pipelinesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markedsystems.azure-pipelinesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "azure-pipelines";
+			};
+			name = Debug;
+		};
+		4D7EE15121F39ABF007DFABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z2XT36CY3;
+				INFOPLIST_FILE = "azure-pipelinesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.markedsystems.azure-pipelinesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "azure-pipelines";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7EE11C21F39ABD007DFABC /* Build configuration list for PBXProject "azure-pipelines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7EE14721F39ABF007DFABC /* Debug */,
+				4D7EE14821F39ABF007DFABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7EE14921F39ABF007DFABC /* Build configuration list for PBXNativeTarget "azure-pipelines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7EE14A21F39ABF007DFABC /* Debug */,
+				4D7EE14B21F39ABF007DFABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7EE14C21F39ABF007DFABC /* Build configuration list for PBXNativeTarget "azure-pipelinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7EE14D21F39ABF007DFABC /* Debug */,
+				4D7EE14E21F39ABF007DFABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7EE14F21F39ABF007DFABC /* Build configuration list for PBXNativeTarget "azure-pipelinesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7EE15021F39ABF007DFABC /* Debug */,
+				4D7EE15121F39ABF007DFABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7EE11921F39ABD007DFABC /* Project object */;
+}
